@@ -1,0 +1,1 @@
+#Created a three tier architecture consisting of Web Server, App Server, DataBase server with a public facing load balancers and inter load balancer with the help of Bicep a script as main file and json in parameter file.
