@@ -77,6 +77,9 @@ module webvm './modules/compute.bicep'= [for i in range(0, numberOfInstances): {
     vnetresourcegroup: ''
     loadbalancername:'loadbalancerweb'
   }
+  dependsOn:[
+    loadbalancer
+  ]
   
 }]
 
